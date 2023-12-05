@@ -95,3 +95,13 @@ After considering multiple models, training them and tuning their hyperparameter
 
 Even though we tuned with high details our models and compared the best performance of each, we still could have created an even more powerfull classifier by chaining them and creating an ensemble of classifiers that combine the best qualities and predictions of our models. The next step for this direction of future work will be to implement it and tune to compare if a composition of classifiers is better than single models. 
 
+
+
+
+
+
+For next year's lessons: 
+![meme](images/f1_score_meme.jpg)
+
+
+
