@@ -70,7 +70,8 @@ We will then tune the hyperparameters using cross-validation to find the best on
 
 Both for evaluating our models and for deciding the best hyperparameters we use *f1* scoring because we have an unbalanced dataset as can be seen in the visualization below and the accuracy may mislead us due to the dominance of one class (in our case the Non Fraudulent sms). 
 ![Fraudulent Distribution](images/data_distribution.png)
-Furthermore, we want to minimize False Positives because we don't want to accidentally flag a non fraudulent sms as spam. 
+
+Furthermore, we will use f1 as our main metric because we want to minimize False Positives because we don't want to accidentally flag a non fraudulent sms as spam. 
 
 For testing, we will redo the whole process of training and running the models but with the best hyperaparameters found.
 
@@ -81,11 +82,11 @@ Finally, we conclude our experimentation after executing the models with these c
 
 These are the confusion matrices of the default or non specific hyperparameters models:
 
-![Default CM](images/default_confusion_matrices.png)
+![Default CM](images/default_confusion_matrices.jpg)
 
 These are the confusion matrices of the hyperparameter tuned models:
 
-![Tuned CM](images/tuned_confusion_matrices.png)
+![Tuned CM](images/tuned_confusion_matrices.jpg)
 
 
 ## Section 5: 
